@@ -117,7 +117,5 @@ Retourne un objet `event` si la création a réussie, sinon, renvoie une erreur 
 
 Retourne un tableau d'objets `event`.
 
-    ```json
     GET /api/events
     Authorization: Bearer <token>
-    ```
