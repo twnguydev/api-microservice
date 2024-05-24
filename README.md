@@ -21,17 +21,17 @@ Le **Calendar Service** est une application Spring Boot conçue pour gérer les 
 
 ## Technologies utilisées
 
-- **Java 11** : Langage de programmation principal
+- **Java 17** : Langage de programmation principal
 - **Spring Boot** : Framework pour créer des applications Java
   - **Spring Data JPA** : Pour l'interaction avec la base de données
   - **Spring Web** : Pour la création d'API RESTful
   - **Spring Security** : Pour l'authentification et l'autorisation
-- **H2 Database** : Base de données en mémoire pour les tests et le développement
+- **Base de données MySQL**
 - **Maven** : Outil de gestion de projet et de dépendances
 
 ## Prérequis
 
-- **Java 11** ou une version supérieure
+- **Java 17** ou une version supérieure
 - **Maven** pour la gestion du projet
 
 ## Installation
