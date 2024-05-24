@@ -111,7 +111,7 @@ Retourne un objet `event` si la création a réussie, sinon, renvoie une erreur 
     "groupName": "Équipe de projet",
     "participantIds": [2, 3]
     }
-    ```
+    ````
 
 4. Lister tous les événements
 
