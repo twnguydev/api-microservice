@@ -68,9 +68,9 @@ Retourne un objet `user` si la création a réussie, sinon, renvoie une erreur s
     Content-Type: application/json
 
     {
-        "firstname": "John",
-        "lastname": "Doe",
-        "email": "john.doe@example.com"
+      "firstname": "John",
+      "lastname": "Doe",
+      "email": "john.doe@example.com"
     }
     ```
 
@@ -84,7 +84,7 @@ Retourne un token d'authentification si l'utilisateur existe, sinon, renvoie une
     Content-Type: application/json
 
     {
-        "email": "john.doe@example.com"
+      "email": "john.doe@example.com"
     }
     ```
 
@@ -102,14 +102,14 @@ Retourne un objet `event` si la création a réussie, sinon, renvoie une erreur 
     Content-Type: application/json
 
     {
-    "title": "Réunion hebdomadaire",
-    "description": "Réunion pour discuter des progrès du projet",
-    "startTime": "2024-06-01T10:00:00",
-    "endTime": "2024-06-01T11:30:00",
-    "location": "Salle de réunion A",
-    "userId": 1,
-    "groupName": "Équipe de projet",
-    "participantIds": [2, 3]
+      "title": "Réunion hebdomadaire",
+      "description": "Réunion pour discuter des progrès du projet",
+      "startTime": "2024-06-01T10:00:00",
+      "endTime": "2024-06-01T11:30:00",
+      "location": "Salle de réunion A",
+      "userId": 1,
+      "groupName": "Équipe de projet",
+      "participantIds": [2, 3]
     }
     ````
 
@@ -117,5 +117,7 @@ Retourne un objet `event` si la création a réussie, sinon, renvoie une erreur 
 
 Retourne un tableau d'objets `event`.
 
-    GET /api/events
-    Authorization: Bearer <token>
+   ```json
+   GET /api/events
+   Authorization: Bearer <token>
+   ```
