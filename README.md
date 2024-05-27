@@ -57,7 +57,7 @@ Le **Calendar Service** est une application Spring Boot conçue pour gérer les 
 
 L'application propose plusieurs endpoints pour gérer les événements, les utilisateurs et les participants. Voici quelques exemples :
 
-1. Créer un utilisateur
+### 1. Créer un utilisateur
 
 Retourne un objet `user` si la création a réussie, sinon, renvoie une erreur si :
 - `email` n'est pas au bon format
@@ -74,7 +74,7 @@ Retourne un objet `user` si la création a réussie, sinon, renvoie une erreur s
     }
     ```
 
-2. Obtenir un token d'authentification
+### 2. Obtenir un token d'authentification
 
 Retourne un token d'authentification si l'utilisateur existe, sinon, renvoie une erreur si :
 - `email` n'est lié à aucun utilisateur enregistré
@@ -88,7 +88,7 @@ Retourne un token d'authentification si l'utilisateur existe, sinon, renvoie une
     }
     ```
 
-3. Créer un événement
+### 3. Créer un événement
 
 Retourne un objet `event` si la création a réussie, sinon, renvoie une erreur si :
 - `participantIds` comporte des IDs n'existant pas parmis les utilisateurs
@@ -113,7 +113,7 @@ Retourne un objet `event` si la création a réussie, sinon, renvoie une erreur 
     }
     ````
 
-4. Lister tous les événements
+### 4. Lister tous les événements
 
 Retourne un tableau d'objets `event`.
 
