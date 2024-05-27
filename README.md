@@ -76,9 +76,9 @@ Retourne un objet `user` si la création a réussie, sinon, renvoie une erreur s
 
 ### 2. Obtenir un token d'authentification
 
-Retourne un token d'authentification si l'utilisateur existe, sinon, renvoie une erreur si :
+Retourne un token d'authentification si l'utilisateur existe, ou un nouveau token si l'ancien a expiré (10 heures).
+Sinon, renvoie une erreur si :
 - `email` n'est lié à aucun utilisateur enregistré
-Retourne un nouveau token d'authentification si l'ancien token de l'utilisateur a expiré (10 heures).
 
     ```json
     POST /api/auth/token
